@@ -9,20 +9,26 @@ NOT X ~X
 X OR Y X | Y
 
 **Format for input.txt:**
- <NQ = NUMBER OF QUERIES>
+<NQ = NUMBER OF QUERIES>
 <QUERY 1>
-_ _ _ 
+	.
+	.
+	.
 <QUERY NQ>
 <NS = NUMBER OF GIVEN SENTENCES IN THE KNOWLEDGE BASE>
 <SENTENCE 1>
-_ _ _
+	.
+	.
+	.
 <SENTENCE NS>
 
 
 **Format for output.txt:**
 For each query, determine if that query can be inferred from the knowledge base or not, one query per line:
 <ANSWER 1>
-_ _ _
+	.
+	.
+	.
 <ANSWER NQ>
 where
 each answer should be either TRUE if you can prove that the corresponding query sentence is true given the knowledge base, or FALSE if you cannot.
